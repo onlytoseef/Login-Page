@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="./style.css">
+
+<!-- Favicon -->
+<link rel="icon"  type="image" href="./Assets/Images/favicon.ico">
+<!-- Font -->
+<link href="https://api.fontshare.com/v2/css?f[]=chillax@500&display=swap" rel="stylesheet">
+<!-- icons -->
+<script src="https://kit.fontawesome.com/2f07792400.js" crossorigin="anonymous"></script>
+<!-- Input Fonts -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  </style>
+<!-- Toastify -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+
+
+    <title   >Login Page</title>
+</head>
+<body>
+
+    <header></header>
+    <main>
+
+<div class="flux">
+    <div class="card">
+        <h2 class="heading1"  >ADMIN LOGIN</h2>
+        <!-- UserNmae -->
+        <form action="" onsubmit="loginPage()" >
+            <div class="data" style="display: flex; justify-content: center;">
+                <input type="text" id="UserSaab" class="useri" placeholder="Type Username">
+                <i  class="fa-regular fa-user"></i>
+            </div>
+            <div class="data" style="display: flex; justify-content: center;">
+                <input type="text" id="email" placeholder="Email">
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="data" style="display: flex; justify-content: center;">
+                <input type="password" id="password" placeholder="Password">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+        </form>
+        <Button href="javascript:void(0)" onclick="loginPage()">LOGIN</Button> <br>
+        <div class="link">
+            <a style="margin-top: 2rem;" href="javascript:void(0)" class="newUser">New User ?</a> 
+        <a href="javascript:void(0)"  > Forgot Your Password</a>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+    </main>
+    <footer></footer>
+
+    <!-- Toastify JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- Cutoms JS -->
+    <script src="./script.js"></script>
+    
+</body>
+</html>
