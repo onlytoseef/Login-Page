@@ -12,10 +12,12 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    width: 100vw;
     background-image: url(./Assets/Images/polygon-scatter-haikei.svg);
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
+    
 }
 .card{
     
